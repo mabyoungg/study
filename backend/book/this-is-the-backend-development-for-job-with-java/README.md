@@ -9,6 +9,7 @@
 - [2. 백엔드 개발을 위한 필수 기본 지식](#2-백엔드-개발을-위한-필수-기본-지식)
   - [3. 실무에 가장 많이 쓰이는 자바 문법](#3-실무에-가장-많이-쓰이는-자바-문법)
   - [4. 서버와 클라이언트](#4-서버와-클라이언트)
+  - [5. API 호출 클라이언트 페이지 만들기](#5-api-호출-클라이언트-페이지-만들기)
 
 ---
 
@@ -160,6 +161,50 @@
 | 443   | HTTPS   | 보안 하이퍼텍스트 전송 프로토콜(HTTPS)  |
 
 </details>
+
+<details>
+<summary> 기술면접 TIP </summary>
+
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+
+</details>
+
+---
+
+### 5. API 호출 클라이언트 페이지 만들기
+1) 스프링 부트 애플리케이션 실행하기
+   - 스프링 프레임워크와 스프링 부트
+     - 의존성 주입(DI, Dependency Injection): 객체 간의 의존 관계를 외부에서 주입하는 방식
+     - 제어의 역전(IOC, Inversion Of Control): 객체의 생성과 생명주기를 외부에서 관리하는 방식
+     - 관점지향 프로그래밍(AOP, Aspect-Oriented Programming): 흩어진 코드를 한 곳으로 모아 관리하는 방식
+     - 비즈니스 로직: 애플리케이션에서 필수적이면서 핵심적인 역할을 하는 코드
+     - 스프링: 비즈니스 로직에 최대한 집중할 수 있도록 돕는 프레임워크
+     - 스프링 부트: 스프링 프레임워크를 기반으로 만들어진 프레임워크, 설정이 간단하고 빠르게 개발할 수 있는 장점
+   - 스프링 이니셜라이저
+     - 스프링 부트 프로젝트를 생성할 때 사용하는 도구
+     - https://start.spring.io/
+     - Maven, Gradle: 라이브러리를 관리하거나 소스코드를 바이너리 코드로 컴파일하는 프로젝트 빌드 도구
+
+
+2) 컨트롤러 추가하기
+   - 컨트롤러의 역할
+     - 클라이언트의 요청을 받아 처리하는 역할
+     - `@RequestMapping`: 클라이언트의 요청 URL을 매핑하여 처리하는 메서드를 호출, `@RequestMapping(value = "/hello", method = RequestMethod.GET)`, `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`
+   - URL의 구조
+     - Uniform Resource Locator, 네트워크상에 존재하는 자원의 위치를 표현하기 위해 사용하는 일련의 문자열 집합
+     - `프로토콜://호스트:포트/경로?쿼리스트링`, `http://localhost:8080/hello?name=world`
+     - 프로토콜: 통신에 사용되는 규약, http, https
+     - 호스트: 자원이 위치한 서버의 도메인 주소
+     - 포트: 서버에 접속하기 위한 포트 번호
+     - 경로: 서버 내부의 자원의 위치
+     - 쿼리스트링: 서버에 전달하는 파라미터
+     - `http://user:password@localhost:8080/hello?name=world`, 인증 정보를 포함한 URL, 거의 사용하지 않음
+     - port를 명시하지 않은 경우 프로토콜 기본 포트 사용. http: 80, https: 443
+
+
+3) 정적 리소스 추가하기
+   - 소규모 서비스: 정적 리소스를 서버에 포함하여 제공
+   - 대규모 서비스: 정적 리소스를 CDN(Content Delivery Network)에 업로드하여 제공
 
 <details>
 <summary> 기술면접 TIP </summary>
