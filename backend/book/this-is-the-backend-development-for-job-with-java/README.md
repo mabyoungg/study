@@ -10,6 +10,7 @@
   - [3. 실무에 가장 많이 쓰이는 자바 문법](#3-실무에-가장-많이-쓰이는-자바-문법)
   - [4. 서버와 클라이언트](#4-서버와-클라이언트)
   - [5. API 호출 클라이언트 페이지 만들기](#5-api-호출-클라이언트-페이지-만들기)
+  - [6. 백엔드 개발에 필요한 최소한의 HTML 지식](#6-백엔드-개발에-필요한-최소한의-html-지식)
 
 ---
 
@@ -160,6 +161,7 @@
 | 143   | IMAP    | 인터넷 메시지 액세스 프로토콜(IMAP)    |
 | 443   | HTTPS   | 보안 하이퍼텍스트 전송 프로토콜(HTTPS)  |
 
+
 </details>
 
 <details>
@@ -205,6 +207,42 @@
 3) 정적 리소스 추가하기
    - 소규모 서비스: 정적 리소스를 서버에 포함하여 제공
    - 대규모 서비스: 정적 리소스를 CDN(Content Delivery Network)에 업로드하여 제공
+
+
+<details>
+<summary> 기술면접 TIP </summary>
+
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+
+</details>
+
+---
+
+### 6. 백엔드 개발에 필요한 최소한의 HTML 지식
+2) HTML의 구조
+   - 싱글톤 태그: 종료 태그가 없는 태그, `<br>`, `<hr>`, `<img>`, `<input>` 등
+   - `!DOCTYPE`: 문서의 형식을 정의하는 태그
+   - minify: HTML, CSS, JavaScript 등의 코드 내에서 줄바꿈, 공백, 띄어쓰기 생략하여 파일의 용량을 줄임
+   - uglify, obfuscation: 코드를 난독화하여 해석을 어렵게 하는 기술
+   - HTML 문서를 설명하기 위한 head 태그
+     - 인코딩되는 방식과 캐릭터셋 일치, UTF-8 -> utf-8, ANSI -> euc-kr
+     - 오픈 그래프: 웹 페이지를 공유할 때 사용되는 메타 태그, 웹 페이지의 정보를 표현
+   - HTML: 웹 페이지의 구조를 정의하는 언어
+   - CSS: HTML 문서의 스타일을 정의하는 언어
+   - JavaScript: HTML 문서의 동작을 정의하는 언어
+
+
+3) 웹 브라우저와 서버의 상호작용
+   - 웹 브라우저가 서버와 상호작용하는 방법
+     - URL을 통한 접속
+     - form 태그를 사용하여 form 제출
+     - XHR을 사용한 AJAX 요청
+     - 웹 소켓을 통한 연결
+     
+
+4) form 태그로 서버와 상호작용하는 방법
+   - enctype: form 데이터를 서버로 전송할 때 사용하는 인코딩 방식, `application/x-www-form-urlencoded`, `multipart/form-data`, `text/plain`
+
 
 <details>
 <summary> 기술면접 TIP </summary>
