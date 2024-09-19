@@ -20,6 +20,8 @@
   - [12. 상품 관리 애플리케이션에 객체지향 더하기](#12-상품-관리-애플리케이션에-객체지향-더하기)
 - [4. 실전 과제 테스트 문제](#4-실전-과제-테스트-문제)
   - [13. 단축 URL 서비스 개발](#13-단축-url-서비스-개발)
+  - [14. 주문 관리 API 서버 개발](#14-주문-관리-api-서버-개발)
+- [APPENDIX B. 과제 테스트 최종 문서화하기](#appendix-b-과제-테스트-최종-문서화하기)
 
 ---
 
@@ -114,7 +116,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#3-실무에-가장-많이-쓰이는-자바-문법)
 
 </details>
 
@@ -175,7 +177,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#4-서버와-클라이언트)
 
 </details>
 
@@ -220,7 +222,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#5-api-호출-클라이언트-페이지-만들기)
 
 </details>
 
@@ -255,7 +257,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#6-백엔드-개발에-필요한-최소한의-html-지식)
 
 </details>
 
@@ -314,7 +316,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#7-백엔드-서버와-통신하기-위한-최소한의-자바스크립트-지식)
 
 </details>
 
@@ -385,7 +387,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#8-서버와-클라이언의-약속-http)
 
 </details>
 
@@ -434,7 +436,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#9-상품-관리-애플리케이션-만들기)
 
 </details>
 
@@ -468,7 +470,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#10-상품-관리-애플리케이션에-유효성-검사-추가하기)
 
 </details>
 
@@ -506,7 +508,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#11-상품-관리-애플리케이션에-데이터베이스-연동하기)
 
 </details>
 
@@ -538,7 +540,7 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#12-상품-관리-애플리케이션에-객체지향-더하기)
 
 </details>
 
@@ -559,8 +561,29 @@
 <details>
 <summary> 기술면접 TIP </summary>
 
-[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md)
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#13-단축-url-서비스-개발)
 
 </details>
+
+---
+
+### 14. 주문 관리 API 서버 개발
+<details>
+<summary> 기술면접 TIP </summary>
+
+[private repository](https://github.com/mabyoungg/study-private/blob/main/backend/book/this-is-the-backend-development-for-job-with-java/README.md#14-주문-관리-api-서버-개발)
+
+</details>
+
+---
+
+### APPENDIX B. 과제 테스트 최종 문서화하기
+2) 과제의 관점으로 상품 관리 애플리케이션 만들기
+   - 로그 레벨: DEBUG, INFO, WARN, ERROR, FATAL
+     - DEBUG: 애플리케이션을 디버깅할 때 필요한 정보를 기록
+     - INFO: 애플리케이션에서 통상적으로 사용되는 정보를 기록
+     - WARN: 잠재적으로 문제가 될 수 있는 상황에 대한 정보를 경고의 의미로 기록
+     - ERROR: 해당 요청을 처리하는 데 문제가 되는 상황이지만, 애플리케이션 자체는 계속 실행될 수 있는 수준의 정보를 기록
+     - FATAL: 애플리케이션이 중단될 수 있을 정도로 심각한 상황에 대한 정보를 기록
 
 ---
